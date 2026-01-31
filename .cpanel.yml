@@ -1,5 +1,5 @@
 ---
 deployment:
 tasks:
-- export DEPLOYPATH=/home/unih5586/public_html/git
+- export DEPLOYPATH=/home/unih5586/public_html/
 - /bin/cp -r * $DEPLOYPAT
