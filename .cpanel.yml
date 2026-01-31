@@ -1,5 +1,6 @@
 ---
 deployment:
-tasks:
-- export DEPLOYPATH=/home/unih5586/public_html/
-- /bin/cp -r * $DEPLOYPAT
+  tasks:
+    - export DEPLOYPATH=/home/unih5586/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+
